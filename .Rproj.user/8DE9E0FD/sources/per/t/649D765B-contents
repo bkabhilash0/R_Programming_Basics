@@ -1,0 +1,13 @@
+library(ggplot2);
+library(tidyverse)
+library(tidymodels)
+library(palmerpenguins)
+library(ggthemes)
+
+df <- palmerpenguins::penguins
+
+head(df,20)
+
+glimpse(df)
+
+ggplot(data=df,mapping = aes(x=flipper_length_mm,y=body_mass_g)) + geom_point(mapping = aes(color=species,shape=species)) + geom_smooth(method = "lm")

@@ -1,0 +1,7 @@
+"0","mean_1 <- 22"
+"0","std <- sqrt(25)"
+"0","pnorm(27.5,mean = mean_1,sd = std) - pnorm(16.2,mean = mean_1,sd = std)"
+"1","[1]"
+"1"," 0.7413095"
+"1","
+"
