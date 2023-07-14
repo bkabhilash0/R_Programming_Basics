@@ -1,6 +1,0 @@
-"0","pnorm(15,mean = mean_1,sd = std) + (1- pnorm(25,mean = mean_1,sd = std))
-"
-"1","[1]"
-"1"," 0.3550098"
-"1","
-"
